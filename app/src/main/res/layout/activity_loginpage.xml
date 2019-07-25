@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background"
+    tools:context=".loginpage">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log in"
+        android:layout_margin="10dp"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:textSize="20dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Email"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:background="@drawable/ed_bakground"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white"
+        android:inputType="textEmailAddress"
+        android:id="@+id/email_et"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textSize="20dp"
+        android:background="@drawable/ed_bakground"
+        android:padding="10dp"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white"
+        android:id="@+id/password_et"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white"
+        android:layout_margin="10dp"
+        android:textSize="16dp"
+        android:padding="10dp"
+        android:background="@drawable/ed_bakground"
+        android:id="@+id/login_bt"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:text="Don't have account?SignUp"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:id="@+id/signup_tv"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:text="Forgot/Reset Password ?"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:id="@+id/forgetpass_tv"/>
+
+
+</LinearLayout>
