@@ -43,7 +43,7 @@ Money Manager is and android based application use to keepping the records of ex
 |:--:|:--:|:--:|
 |**Expenditure List**|**Add New log**|**Edit Old logs**|
 
-|<img src="Screenshot/forgetpassword.png" width="267">|
+|<img src="Screenshot/forgetpassword.png" width="33%">|
 |:--:|
 |**Forgot Password**|
 
